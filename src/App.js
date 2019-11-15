@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import { Navbar, NavDropdown, Nav,Carousel } from 'react-bootstrap';
+import { Navbar, NavDropdown, Nav, Carousel, Card, Row,Image } from 'react-bootstrap';
 
 import logo from './assets/graduation.svg';
 import imagem from './banner1.png'
@@ -35,8 +35,58 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-{/*================================================================================================================*/}
-{/*================================================================================================================*/}
+      {/*================================================================================================================*/}
+      {/*================================================================================================================*/}
+      <div>
+        <Image src={imagem} alt="Seja bem-vindo" style={{width:"100%"}} fluid/>
+      </div>
+      {/*================================================================================================================*/}
+      {/*================================================================================================================*/}
+      <div className="meio">
+        <Row>
+          <Card style={{ width: '18rem',margin:'0 auto',marginTop:'10%' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Segurança</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+    </Card.Text>
+
+            </Card.Body>
+          </Card>
+          {/*================================================================================================================*/}
+          {/*================================================================================================================*/}
+          <Card style={{ width: '18rem',margin:'0 auto',marginTop:'10%' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>Saúde</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+    </Card.Text>
+
+            </Card.Body>
+          </Card>
+          {/*================================================================================================================*/}
+          {/*================================================================================================================*/}
+          <Card style={{ width: '18rem',margin:'0 auto',marginTop:'10%' }}>
+            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Body>
+              <Card.Title>ajuda</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+    </Card.Text>
+
+            </Card.Body>
+          </Card>
+        </Row>
+
+      </div>
+      {/*================================================================================================================*/}
+      {/*================================================================================================================*/}
+      <div>
       <Carousel>
         <Carousel.Item>
           <img
@@ -69,16 +119,14 @@ function App() {
           />
         </Carousel.Item>
       </Carousel>
-{/*================================================================================================================*/}
-{/*================================================================================================================*/}
-    <div className="meio">
-      <h1>
-        Olá Mundo
-      </h1>
-    </div>
+      </div>
+      {/*================================================================================================================*/}
+      {/*================================================================================================================*/}
+      <footer className="rodape">
+        <div>
 
-
-
+        </div>
+      </footer>
     </>
 
 
