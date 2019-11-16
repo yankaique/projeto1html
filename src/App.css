@@ -21,6 +21,12 @@
   color: #09d3ac;
 }
 
+.titulo{
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+
 .menu-text{
   margin:0 auto;
   margin-left: 20px;
@@ -40,11 +46,13 @@
 
 .meio{
   width:100%;
-  height: 450px;
+  height: 650px;
+  margin: 0 auto;
 }
 
+
+
 .rodape{
-  width: 100%;
-  height: 150px;
-  background-color: black;
+  bottom: 0;
+  height: 50px;
 }
