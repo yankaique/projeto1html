@@ -1,15 +1,15 @@
 import React from 'react';
-import '../App.css';
+import './styles/App.css';
 
 import { Card, Row, Image } from 'react-bootstrap';
 
 import Menu from './assets/menu';
 import Footer from './assets/footer';
 
-import imagem from '../banner1.png';
-import iconApple from '../assets/apple.svg';
-import iconCam from '../assets/webcam.svg';
-import iconHelp from '../assets/teacher.svg';
+import imagem from './images/banner1.png';
+import iconApple from './images/apple.svg';
+import iconCam from './images/webcam.svg';
+import iconHelp from './images/teacher.svg';
 
 function Home() {
   return (
@@ -67,7 +67,7 @@ function Home() {
       </div>
       {/*================================================================================================================*/}
       {/*================================================================================================================*/}
-      <div style={{ backgroundColor: "#1E90FF" }}>
+      <div style={{ backgroundColor: "#084AFF" }}>
         <h1 className="titulo">Veja algumas das nossas atividades</h1>
 
       </div>

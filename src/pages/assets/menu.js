@@ -1,11 +1,11 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
 
-import logo from '../../assets/graduation.svg';
+import logo from '../images/graduation.svg';
 
 function Menu() {
     return(
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar bg="light" variant="light" collapseOnSelect expand="lg" >
         <Navbar.Brand href="/">
           <div className="logo-background">
             <img
@@ -21,12 +21,12 @@ function Menu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link className="menu-text" href="/galeria">Galeria</Nav.Link>
-            <Nav.Link className="menu-text" href="/ativdades">Atividades</Nav.Link>
+            <Nav.Link className="menu-text" href="/atividades">Atividades</Nav.Link>
             <NavDropdown className="menu-text" title="Conheça a escola" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Perguntas e Respostas</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Fale Conosco</NavDropdown.Item>
+              <NavDropdown.Item className="menu-text" href="/faq">Perguntas e Respostas</NavDropdown.Item>
+              <NavDropdown.Item className="menu-text" href="/formulario">Fale Conosco</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Saiba mais</NavDropdown.Item>
+              <NavDropdown.Item className="menu-text" href="/conhecer">Saiba mais</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

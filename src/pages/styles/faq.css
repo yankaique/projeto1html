@@ -1,0 +1,31 @@
+.banner-faq{
+    background-color:#FFD906;
+    height:300px;
+    width:100%;
+    padding:20px;
+    margin-top: 10px;
+}
+
+.banner-border{
+    border-color:#084AFF;
+    height:100%;
+    border-width:5px;
+     border-style:solid;
+}
+
+.title-banner-faq{
+    text-align:center;
+    font-size:70px;
+    color:white;
+    margin-top: 50px;
+}
+
+.text-faq{
+    font-size:25px;
+}
+
+.seperador{
+    width: 100%;
+    height: 3px;
+    background-color: #084AFF;
+}

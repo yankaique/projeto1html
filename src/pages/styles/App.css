@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+
+.titulo{
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-text{
+  margin:0 auto;
+  margin-left: 20px;
+  font-size:20px; 
+  font-weight: bold;
+}
+
+.logo-background{
+  background-color: rgba(0, 0, 0, 0.294);
+  border-radius: 50%;
+  margin:0 auto;
+  width:60px;
+ height:60px;
+}
+
+.icon-top{
+  margin-top: 6px;
+}
+
+.meio{
+  width:100%;
+  height: 650px;
+  margin: 0 auto;
+}
+
+
+
+.rodape{
+  margin-top: 50px;
+  position: absolute bottom;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+}
